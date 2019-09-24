@@ -22,6 +22,7 @@
 ## Content
 
 - [Content](#content)
+- [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Templates](#templates)
@@ -30,6 +31,10 @@
 - [Authors](#authors)
 - [Contact](#contact)
 - [License](#license)
+
+## Features
+
+- Support for multiple workers.
 
 ## Requirements
 
@@ -40,6 +45,9 @@
 
 `npm install node-cron discord.js`
 
+## Usage
+
+`node . config1.json config2.json ...`
 
 ## Templates
 

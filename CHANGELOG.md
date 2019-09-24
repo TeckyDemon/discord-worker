@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2019-09-24
+
+### Added
+
+##### [index.js](index.js)
+
+- Support for multiple workers.
+
+##### [README.md](README.md)
+
+- [Features](https://github.com/DeBos99/discord-worker#features)
+- [Usage](https://github.com/DeBos99/discord-worker#usage)
+
 ## [1.0.0] - 2019-09-11
 
 ### Added

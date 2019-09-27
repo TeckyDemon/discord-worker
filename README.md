@@ -38,12 +38,11 @@
 
 ## Requirements
 
-- [node-cron](https://www.npmjs.com/package/node-cron)
 - [discord.js](https://www.npmjs.com/package/discord.js)
 
 ## Installation
 
-`npm install node-cron discord.js`
+`npm install discord.js`
 
 ## Usage
 
@@ -55,21 +54,21 @@
 
 ```json
 {
-	"clientToken"    : "TOKEN",
+	"clientToken"   : "TOKEN",
 	"workServerID"  : "ID",
 	"workChannelID" : "ID",
 	"workCommand"   : "!work",
-	"cron"          : "* * * * *"
+	"workWaitTime"  : 3600
 }
 ```
 
-| Key           | Description                        |
-| :------------ | :--------------------------------- |
-| clientToken   | Your token.                        |
-| workServerID  | ID of server where bot will work.  |
-| workChannelID | ID of channel where bot will work. |
-| workCommand   | Work command on server.            |
-| cron          | Cron expression for bot.           |
+| Key           | Description                                  |
+| :------------ | :------------------------------------------- |
+| clientToken   | Your token.                                  |
+| workServerID  | ID of server where bot will work.            |
+| workChannelID | ID of channel where bot will work.           |
+| workCommand   | Work command on server.                      |
+| workWaitTime  | Time in seconds to wait before next command. |
 
 ## Disclaimer
 

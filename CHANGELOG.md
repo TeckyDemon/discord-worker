@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] - 2019-09-28
+
+### Fixed
+
+##### [index.js](index.js)
+
+- Timing.
+
 ## [2.0.1] - 2019-09-25
 
 ### Changed
